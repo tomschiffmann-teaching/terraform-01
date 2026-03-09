@@ -19,7 +19,7 @@
 
 ## Terraform state
 
-### Workflow
+### Workflow:
 
 ![Basic Workflow](./images/tfstate_workflow.png)
 

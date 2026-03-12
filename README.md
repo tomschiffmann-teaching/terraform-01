@@ -19,10 +19,10 @@
 
 ## Terraform state
 
-### Workflow:
+### Workflow
 
 ![Basic Workflow](./images/tfstate_workflow.png)
 
-### TF State Remote in Speicher ablegen:
+### TF State Remote in Speicher ablegen
 
 ![](./images/tfstate_solution.png)

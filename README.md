@@ -62,6 +62,23 @@
 18. Müsst ihr merge Konflikte beheben, commiten, pushen
 19. Auf github.com PR überprüfen, dass mergen möglich ist und letzendlich mergen
 
+## WSL --> VSCode
+
+![](./images/wsl_vscode.png)
+
+### Wenn wir eine neue Projektmappe anlegen dann...
+
+- Wir legen die Projektmappe meistens als leeren Ordner auf Windows an
+- VSCode öffnen und dann auf connect to wsl über
+  ![](./images/connect_to_wsl.png)
+- Danach steh unten wsl
+- Und der Projektpfad den ih nun öffnen müsst liegt nicht unter z.B. `C:\\..\<projekt-mappe` sondern unter `mnt/c/.../<projektmappe>`
+- Und wenn ihr das so konfiguriert sind die git Systeme von der WSL und dem Visual Studio Code identisch
+
 ## Aufgabe für Git Vertiefung:
 
 - [learngitbranching.js.org](https://learngitbranching.js.org/?locale=de_DE)
+
+## Wie geh es weiter
+
+![](./images/to_be_continued.png)

@@ -39,3 +39,7 @@
 8. Über Github UI mergen
 9. `git checkout main`
 10. `git pull` ausführen
+
+## Aufgabe für Git Vertiefung:
+
+- [learngitbranching.js.org](https://learngitbranching.js.org/?locale=de_DE)

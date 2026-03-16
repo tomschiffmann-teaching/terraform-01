@@ -26,3 +26,16 @@
 ### TF State Remote in Speicher ablegen
 
 ![](./images/tfstate_solution.png)
+
+## Aufgabe Git Branches
+
+1. `git pull` von main branch, um aktuelle Änderungen herunterzuladen
+2. Neuen Branch erstellen `feature/003-update-infrastructure`
+3. Infrastructure.md anlegen
+4. `commit` auf Änderung
+5. Branch publishen
+6. Pull request über Github.com UI erstellen
+7. Einen Kommentar bei einer Änderung hinterlassen
+8. Über Github UI mergen
+9. `git checkout main`
+10. `git pull` ausführen

@@ -40,6 +40,28 @@
 9. `git checkout main`
 10. `git pull` ausführen
 
+## Merge Konflikte beheben (einfach):
+
+1. `git checkout main`
+2. Datei auf main branch anlegen (Merge_Conflicts.md)
+3. Datei mit `# Merge Conflicts` füllen
+4. Speicher, comitten und auf main pushen
+5. `git checkout -b dev-1-test`
+6. Ändern der Überschrift zu `# Merge Konflikte beheben`
+7. Commiten, Branch veröffentlichen und PR erstellen
+8. wieder `git checkout main`
+9. von hier aus `git checkout -b dev-2-test`
+10. Ändern der Überschrift zu `# Arbeiten mit Merge Konflikten`
+11. Commiten, Branch veröffentlichen und PR erstellen
+12. 1. PR mergen
+13. in UI den 2. PR überprüfen --> Merge Konflikte anzeigen
+14. VS-Code öffnen
+15. `git checkout main` && `git pull`
+16. `git checkout dev-2-test`
+17. `git merge main`
+18. Müsst ihr merge Konflikte beheben, commiten, pushen
+19. Auf github.com PR überprüfen, dass mergen möglich ist und letzendlich mergen
+
 ## Aufgabe für Git Vertiefung:
 
 - [learngitbranching.js.org](https://learngitbranching.js.org/?locale=de_DE)

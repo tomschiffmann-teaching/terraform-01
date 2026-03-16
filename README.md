@@ -1,4 +1,4 @@
-## 1. Umgebungsvariablen setzen
+## 1. Environment Variablen setzen
 
 - Die Umgebuzngsvariablen sind Teil der Session im Terminal/Powershell
 - Im AWS Kontext nutzen wir die Env-Variablen, um unseren `AWS_ACCESS_KEY_ID` und `AWS_SECRET_ACCESS_KEY` zu setzen

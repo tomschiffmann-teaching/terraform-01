@@ -26,7 +26,6 @@ jobs:
 
   deploy:
     name: Deploy
-    needs: e2e
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     env:

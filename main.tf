@@ -8,7 +8,7 @@ terraform {
 
 
   backend "s3" {
-    bucket = "2026-03-23-bs"
+    bucket = "amzn-s3-bs-2026"
     key    = "app/terraform.tfstate" # Key könnt ihr selbst bestimmen, sollte nur über die deployments einheitlich sein
     region = "us-east-1"
   }
@@ -23,7 +23,7 @@ resource "aws_security_group" "ssh" {
   description = "Allow SSH inbound traffic"
 
   ingress {
-    from_port   = 22
+    from_port   = 22 # PORT 22 ist der Standard Port für SSH Kommunikation
     to_port     = 22
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]

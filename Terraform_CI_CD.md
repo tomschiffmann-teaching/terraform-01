@@ -64,3 +64,25 @@
 9. Pull request erstellen
 10. Mergen von Pull request
 11. Unter actions gucken, das die deploy pipeline durchläuft und über AWS Console verifizieren, dass die Resourcen erstellt wurden
+
+# Github
+
+- Unter Github könnt ihr Branches schützen
+- Z.B. könnt ihr den `main` Branch davor schützen, dass man direkt auf deisen pushen kann
+- Das schützt vorallem davor, dass Änderungen ungewollt frühzeitig auf dem main (produktions) Branch landen
+
+1. Enforcement Status auf `Active` setzen
+   ![](./images/github/enforcement_status.png)
+2. Im Repository auf Settings gehen
+3. Bracnches --> Add Rule Set+
+4. Namen geben (z.B. Block push Action)
+5. Target Branch auswählen (default, da der default standardmäßig der main Branch ist)
+   ![](./images/github/rulset_select_branch.png)
+6. Bei Rules zusätlich `Require a pull request before merging` anklicken
+7. Sichern
+
+## Kleiner Test
+
+- Kopiere dir die [./.github/workflows/destroy.yml](.github/workflows/destroy.yml) neben die deploy.yml in euer repository
+- Guckt das ihr auf main nicht pushen könnt
+- Und dann geht über den bekannten Weg der Pull Requests
